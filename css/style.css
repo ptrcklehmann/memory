@@ -1,0 +1,74 @@
+body {
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+    #wrapper{
+		
+		width:100%;
+		
+	}
+	
+	
+	#game img{
+		
+		cursor:pointer;
+		padding:5px;
+		width:100px;
+		height:100px;
+        box-shadow: 
+		
+	}
+
+	#game{
+		
+		margin-top:25px;
+		width:440px;
+		height:456px;
+		padding:10px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+	#head, #klicks, #zeit{
+		text-align:center;
+        position: relative;
+		
+	}
+	
+	#start{	
+	
+		cursor:pointer;
+		margin-left:auto;
+		margin-right:auto;
+		display:block;
+		width:440px;
+		margin-top:20px;
+		/* display:none; */
+		
+	}
+.btn {
+  background: #ebebeb;
+  background-image: -webkit-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -moz-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -ms-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: -o-linear-gradient(top, #ebebeb, #d6d6d6);
+  background-image: linear-gradient(to bottom, #ebebeb, #d6d6d6);
+  -webkit-border-radius: 13;
+  -moz-border-radius: 13;
+  border-radius: 13px;
+  font-family: 'Nanum Myeongjo', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #8c8c8c;
+  background-image: -webkit-linear-gradient(top, #8c8c8c, #333333);
+  background-image: -moz-linear-gradient(top, #8c8c8c, #333333);
+  background-image: -ms-linear-gradient(top, #8c8c8c, #333333);
+  background-image: -o-linear-gradient(top, #8c8c8c, #333333);
+  background-image: linear-gradient(to bottom, #8c8c8c, #333333);
+  text-decoration: none;
+}
